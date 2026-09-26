@@ -1,3 +1,5 @@
+from unittest.mock import AsyncMock, patch
+
 import pytest
 
 from internship_agent.graph import create_internship_graph
@@ -5,16 +7,64 @@ from internship_agent.models.search_result import SearchResult
 from internship_agent.services.search.base import SearchProvider
 
 
-def test_graph_compilation_and_execution() -> None:
+@pytest.mark.asyncio
+async def test_full_graph_execution() -> None:
     graph = create_internship_graph()
-    state = {}
-    result = graph.invoke(state)
 
-    assert "queries" in result
-    queries = result["queries"]
-    assert isinstance(queries, list)
-    assert len(queries) > 0
-    assert any("PFE" in q for q in queries)
+    sample_results = [
+        SearchResult(
+            title="Stage PFE Développeur Backend Java - Casablanca | LinkedIn",
+            url="https://www.linkedin.com/jobs/view/123",
+            snippet="Stage PFE pour étudiant en fin d'études en Java, Spring Boot et Docker à Casablanca.",
+            source="tavily",
+        ),
+        SearchResult(
+            title="Senior Lead Manager",
+            url="https://example.com/senior",
+            snippet="10 ans d'expérience. CDI uniquement. Pas de stage.",
+            source="tavily",
+        ),
+    ]
+
+    with patch(
+        "internship_agent.services.search.tavily.TavilySearchProvider.search",
+        new_callable=AsyncMock,
+    ) as mock_search, patch(
+        "internship_agent.services.notion.NotionSyncService.sync_jobs",
+        new_callable=AsyncMock,
+    ) as mock_notion, patch(
+        "internship_agent.services.notification.telegram.TelegramNotifier.send_message",
+        new_callable=AsyncMock,
+    ) as mock_telegram:
+        mock_search.return_value = sample_results
+        mock_notion.return_value = ([], [])
+        mock_telegram.return_value = True
+
+        result = await graph.ainvoke({})
+
+        assert "queries" in result
+        assert len(result["queries"]) > 0
+
+        assert "raw_results" in result
+        assert len(result["raw_results"]) > 0
+
+        assert "normalized_jobs" in result
+        assert len(result["normalized_jobs"]) > 0
+
+        assert "filtered_jobs" in result
+        # Only the PFE role should pass filtering, senior CDI should be rejected
+        assert len(result["filtered_jobs"]) == 1
+        assert result["filtered_jobs"][0].internship_type == "PFE"
+
+        assert "deduplicated_jobs" in result
+        assert len(result["deduplicated_jobs"]) == 1
+
+        assert "scored_jobs" in result
+        assert len(result["scored_jobs"]) == 1
+        assert (result["scored_jobs"][0].match_score or 0) > 50
+
+        assert "digest" in result
+        assert "Stage PFE Développeur Backend Java" in result["digest"]
 
 
 @pytest.mark.asyncio
