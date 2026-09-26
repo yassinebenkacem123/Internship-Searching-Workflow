@@ -1,5 +1,6 @@
 from unittest.mock import AsyncMock, patch
 
+import httpx
 import pytest
 
 from internship_agent.graph import create_internship_graph
@@ -87,3 +88,31 @@ async def test_search_provider_protocol() -> None:
     assert len(results) == 1
     assert results[0].title == "Mock PFE Title"
     assert results[0].url == "https://example.com/mock"
+
+
+@pytest.mark.asyncio
+async def test_tavily_search_provider_returns_results() -> None:
+    from internship_agent.services.search.tavily import TavilySearchProvider
+
+    provider = TavilySearchProvider(api_key="mock_key")
+    mock_response = httpx.Response(
+        200,
+        json={
+            "results": [
+                {
+                    "title": "Stage PFE Fullstack",
+                    "url": "https://example.com/pfe",
+                    "content": "Description",
+                    "published_date": "2026-01-01",
+                }
+            ]
+        },
+    )
+    with patch("httpx.AsyncClient.post", new_callable=AsyncMock) as mock_post:
+        mock_post.return_value = mock_response
+        res = await provider.search("PFE Morocco")
+        assert res is not None
+        assert isinstance(res, list)
+        assert len(res) == 1
+        assert res[0].title == "Stage PFE Fullstack"
+        assert res[0].url == "https://example.com/pfe"

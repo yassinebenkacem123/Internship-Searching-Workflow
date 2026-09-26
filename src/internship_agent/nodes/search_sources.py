@@ -36,7 +36,8 @@ async def search_sources_node(state: InternshipSearchState) -> dict[str, list[Se
     if tasks:
         batch_results = await asyncio.gather(*tasks)
         for res in batch_results:
-            all_results.extend(res)
+            if res:
+                all_results.extend(res)
 
     # Deduplicate raw results by URL
     seen_urls: set[str] = set()

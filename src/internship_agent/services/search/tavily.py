@@ -53,6 +53,7 @@ class TavilySearchProvider(SearchProvider):
                             published_date=item.get("published_date"),
                         )
                     )
+                return results
         except Exception:
             logger.exception("Error executing Tavily search for query '%s'", query)
             return []
