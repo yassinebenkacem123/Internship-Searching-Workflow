@@ -13,8 +13,9 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # LLM Settings
-    openai_api_key: str | None = None
+    # LLM Settings (Ollama)
+    ollama_base_url: str = "http://localhost:11434"
+    ollama_model: str = "llama3"
 
     # Search Provider Settings
     search_provider: str | None = None

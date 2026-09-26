@@ -156,7 +156,7 @@ Real search APIs, Notion synchronization, LLM enrichment, and notifications are 
 |---|---|
 | Notion API | Internship CRM and persistence |
 | Tavily / Brave / Serper | Search provider options |
-| OpenAI-compatible LLM | Structured semantic enrichment |
+| Ollama (Local LLM) | Structured semantic enrichment |
 | Telegram / Email / Discord | Daily notifications |
 | pytest | Automated testing |
 | Ruff | Linting and code quality |
@@ -301,7 +301,8 @@ Copy-Item .env.example .env
 Example:
 
 ```env
-OPENAI_API_KEY=
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3
 
 SEARCH_PROVIDER=
 SEARCH_API_KEY=
@@ -620,20 +621,20 @@ This keeps the system cheaper, more reliable, and easier to test.
 
 # Development Roadmap
 
-## Phase 1 — Foundation
+## Phase 1 — Foundation (Completed)
 
-- [ ] Initialize project with uv
-- [ ] Add core dependencies
-- [ ] Create source layout
-- [ ] Create settings
-- [ ] Create Pydantic models
-- [ ] Define LangGraph state
-- [ ] Implement deterministic query generation
-- [ ] Create search-provider abstraction
-- [ ] Create minimal graph
-- [ ] Add CLI
-- [ ] Add tests
-- [ ] Add Ruff
+- [x] Initialize project with uv
+- [x] Add core dependencies
+- [x] Create source layout
+- [x] Create settings
+- [x] Create Pydantic models
+- [x] Define LangGraph state
+- [x] Implement deterministic query generation
+- [x] Create search-provider abstraction
+- [x] Create minimal graph
+- [x] Add CLI
+- [x] Add tests
+- [x] Add Ruff
 
 ---
 
@@ -875,9 +876,9 @@ Possible improvements after the core system is stable:
 
 # Status
 
-🚧 **Under active development**
+✅ **Phase 1 — Foundation and Minimal LangGraph Workflow Completed**
 
-Current target: **Phase 1 — Foundation and Minimal LangGraph Workflow**
+Next target: **Phase 2 — Real Search Layer**
 
 ---
 
