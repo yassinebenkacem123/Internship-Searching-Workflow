@@ -20,6 +20,12 @@ class Settings(BaseSettings):
     # Search Provider Settings
     search_provider: str | None = None
     search_api_key: str | None = None
+    tavily_api_key: str | None = None
+
+    @property
+    def effective_tavily_key(self) -> str | None:
+        """Return the effective Tavily API key from either tavily_api_key or search_api_key."""
+        return self.tavily_api_key or self.search_api_key
 
     # Notion CRM Settings
     notion_token: str | None = None

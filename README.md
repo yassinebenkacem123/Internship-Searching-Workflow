@@ -76,9 +76,6 @@ enrich_jobs
 score_jobs
   |
   v
-sync_notion
-  |
-  v
 build_digest
   |
   v
@@ -759,13 +756,6 @@ Extract Skills / Details
   |
   v
 Calculate Match Score
-  |
-  v
-Check Notion
-  |
-  +--> Existing -> Update
-  |
-  +--> New -> Create
   |
   v
 Generate Daily Digest

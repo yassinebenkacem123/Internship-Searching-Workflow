@@ -26,7 +26,7 @@ class TavilySearchProvider(SearchProvider):
             "api_key": self.api_key,
             "query": query,
             "search_depth": "basic",
-            "max_results": 5,
+            "max_results": 10,
             "include_answer": False,
         }
 

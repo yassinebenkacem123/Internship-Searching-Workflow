@@ -31,14 +31,10 @@ async def test_full_graph_execution() -> None:
         "internship_agent.services.search.tavily.TavilySearchProvider.search",
         new_callable=AsyncMock,
     ) as mock_search, patch(
-        "internship_agent.services.notion.NotionSyncService.sync_jobs",
-        new_callable=AsyncMock,
-    ) as mock_notion, patch(
         "internship_agent.services.notification.telegram.TelegramNotifier.send_message",
         new_callable=AsyncMock,
     ) as mock_telegram:
         mock_search.return_value = sample_results
-        mock_notion.return_value = ([], [])
         mock_telegram.return_value = True
 
         result = await graph.ainvoke({})

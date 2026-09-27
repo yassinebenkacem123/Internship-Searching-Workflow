@@ -1,0 +1,817 @@
+[
+  {
+    "title": "Offre de Stage PFE: Développeur Full Stack Java / React",
+    "company": "Offre de Stage PFE: Développeur Full Stack Java / React",
+    "location": "Casablanca",
+    "work_type": "On-site",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Docker",
+      "Cloud",
+      "PostgreSQL"
+    ],
+    "contact_email": "pfe@techmaroc.ma",
+    "apply_link": "https://forms.gle/techmarocPFE2025",
+    "post_url": "https://www.linkedin.com/posts/techmaroc_pfe-fullstack-casablanca-activity-7123456789",
+    "match_score": 95,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship opportunity",
+      "+20: Involves Java / Spring Boot",
+      "+15: Software Engineering / Backend scope",
+      "+15: DevOps, Cloud, or Containerization skills",
+      "+10: Modern React / Next.js frontend",
+      "+5: PostgreSQL database"
+    ]
+  },
+  {
+    "title": "Stage PFE Développeur Backend Java",
+    "company": "Casablanca",
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Docker"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.linkedin.com/jobs/view/123",
+    "post_url": "https://www.linkedin.com/jobs/view/123",
+    "match_score": 70,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "7 Stages d'Informatique au Maroc | iAgora.com",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "Azure",
+      "Java",
+      "Node.js",
+      "Spring Boot",
+      "Linux",
+      "AI",
+      "Python"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.iagora.com/work/fr/stages/informatique/maroc",
+    "post_url": "https://www.iagora.com/work/fr/stages/informatique/maroc",
+    "match_score": 90,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "SOFRECOM MAROC",
+    "company": "Stage PFE - Développeur Full Stack Java | Hi Talents",
+    "location": "Morocco",
+    "work_type": null,
+    "required_skills": [
+      "Docker",
+      "Kubernetes",
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": null,
+    "apply_link": "https://hi-interns.com/internships/stage-pfe-developpeur-full-stack-java-fh",
+    "post_url": "https://hi-interns.com/internships/stage-pfe-developpeur-full-stack-java-fh",
+    "match_score": 85,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+15: DevOps / Cloud",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "Careers | Inetum",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Azure",
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.inetum.com/global/en/careers.html",
+    "post_url": "https://www.inetum.com/global/en/careers.html",
+    "match_score": 80,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "Stage DevOps",
+    "company": "Plus de 20 Offres d'Emploi - 26 septembre 2026 | Hellowork",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "DevOps",
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.hellowork.com/fr-fr/stage/metier_devops.html",
+    "post_url": "https://www.hellowork.com/fr-fr/stage/metier_devops.html",
+    "match_score": 80,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "Emploi Informatique / Electronique-PFE Informatique",
+    "company": "Emploi Afrique - offres d’emploi",
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Git",
+      "FastAPI",
+      "Python",
+      "PostgreSQL"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/offres.html?positionId%5B0%5D=13&positionId%5B1%5D=&query=PFE+Informatique&keyword=PFE-Informatique",
+    "post_url": "https://www.rekrute.com/offres.html?positionId%5B0%5D=13&positionId%5B1%5D=&query=PFE+Informatique&keyword=PFE-Informatique",
+    "match_score": 80,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud",
+      "+5: PostgreSQL"
+    ]
+  },
+  {
+    "title": "Full Stack Stage : plus de 50 emplois (24 septembre 2026)",
+    "company": null,
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": null,
+    "apply_link": "https://ma.indeed.com/q-full-stack-stage-emplois.html",
+    "post_url": "https://ma.indeed.com/q-full-stack-stage-emplois.html",
+    "match_score": 75,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "STAGE",
+    "company": "Développeur Full-Stack avec Expertise Outils IA à distance - Stage.ma",
+    "location": "Remote",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "Java",
+      "TypeScript",
+      "Python"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.stage.ma/offres-stage/9240-stage-developpeur-full-stack-avec-expertise-outils-ia",
+    "post_url": "https://www.stage.ma/offres-stage/9240-stage-developpeur-full-stack-avec-expertise-outils-ia",
+    "match_score": 75,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "Stages PFE & Offres IT – Été 2025 📍 Pour étudiants Bac+3 à Bac+5 (informatique / développement / IA / ERP) 🧑‍💻 Stages, pré-embauches & CDI juniors dans plusieurs entreprises marocaines 🔹 1… | Mourad Faraj | 20 commentaires",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": "recrutement@talentmind.ma",
+    "apply_link": "https://fr.linkedin.com/posts/mourad-faraj_stages-pfe-offres-it-%C3%A9t%C3%A9-2025-pour-activity-7356363710845599745-BBbK",
+    "post_url": "https://fr.linkedin.com/posts/mourad-faraj_stages-pfe-offres-it-%C3%A9t%C3%A9-2025-pour-activity-7356363710845599745-BBbK",
+    "match_score": 75,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "Emploi : stage pfe ingenieur informatique",
+    "company": null,
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "Git",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "RAG",
+      "AI",
+      "Python",
+      "PostgreSQL",
+      "FastAPI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/emploi-stage-pfe-ingenieur-informatique",
+    "post_url": "https://www.rekrute.com/emploi-stage-pfe-ingenieur-informatique",
+    "match_score": 75,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+10: React / Next.js",
+      "+5: PostgreSQL"
+    ]
+  },
+  {
+    "title": "BIMPioneers",
+    "company": "Stage PFE - Développement Logiciel / AI | Hi Talents",
+    "location": "Morocco",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "AI",
+      "Python",
+      "Node.js"
+    ],
+    "contact_email": null,
+    "apply_link": "https://hi-interns.com/internships/stage-pfe-developpement-logiciel-ai",
+    "post_url": "https://hi-interns.com/internships/stage-pfe-developpement-logiciel-ai",
+    "match_score": 70,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "Full-Stack Developer Intern (PFE)",
+    "company": "ToumAI | Stagiaires.ma | Stagiaires.ma",
+    "location": "Morocco",
+    "work_type": null,
+    "required_skills": [
+      "Next.js",
+      "TypeScript",
+      "AI",
+      "Python",
+      "FastAPI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://stagiaires.ma/stage-emploi-maroc/1358926-full-stack-developer-intern-pfe",
+    "post_url": "https://stagiaires.ma/stage-emploi-maroc/1358926-full-stack-developer-intern-pfe",
+    "match_score": 70,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "Emploi : PFE",
+    "company": null,
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "Git",
+      "Docker",
+      "Python",
+      "PostgreSQL",
+      "Machine Learning",
+      "FastAPI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/emploi-PFE",
+    "post_url": "https://www.rekrute.com/emploi-PFE",
+    "match_score": 70,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+5: PostgreSQL",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "Mohammed Afkari",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.linkedin.com/in/medafk",
+    "post_url": "https://www.linkedin.com/in/medafk",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Stage PFE",
+    "company": "Développeur Full Stack Java chez Sofrecom Maroc | Stagiaires.ma | Stagiaires.ma",
+    "location": "Maroc",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.stagiaires.ma/stage-emploi-maroc/895-stage-pfe-developpeur-full-stack-java-f-h",
+    "post_url": "https://www.stagiaires.ma/stage-emploi-maroc/895-stage-pfe-developpeur-full-stack-java-f-h",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Ahmed Rouiha",
+    "company": "Java / Spring Boot Developer - Ausim Maroc | Himalayas",
+    "location": "Remote",
+    "work_type": null,
+    "required_skills": [
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": null,
+    "apply_link": "https://himalayas.app/@ahmedrouiha",
+    "post_url": "https://himalayas.app/@ahmedrouiha",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Post de Mariem DGUIGOU",
+    "company": "Stage PFE 2026",
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://fr.linkedin.com/posts/mariem-dguigou-a29749155_stage-pfe-2026-d%C3%A9veloppeur-java-hf-rabat-maroc-activity-7440401366214340609-kW93",
+    "post_url": "https://fr.linkedin.com/posts/mariem-dguigou-a29749155_stage-pfe-2026-d%C3%A9veloppeur-java-hf-rabat-maroc-activity-7440401366214340609-kW93",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Salah Eddine Kissi | 18 comments",
+    "company": null,
+    "location": "Maroc",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.linkedin.com/posts/salahks_pfe-internship-softwareengineer-activity-7429905913207005184-zJEN",
+    "post_url": "https://www.linkedin.com/posts/salahks_pfe-internship-softwareengineer-activity-7429905913207005184-zJEN",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Tableau des Opportunités de Stage | Académie Lkhibra",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [],
+    "contact_email": null,
+    "apply_link": "https://lkhibra.ma/fr/internships",
+    "post_url": "https://lkhibra.ma/fr/internships",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG"
+    ]
+  },
+  {
+    "title": "Stage Devops",
+    "company": "Offres de stage à pourvoir",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "DevOps",
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.welcometothejungle.com/fr/pages/stage-devops",
+    "post_url": "https://www.welcometothejungle.com/fr/pages/stage-devops",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "Post de Mousaab Laachir",
+    "company": null,
+    "location": "Morocco",
+    "work_type": null,
+    "required_skills": [
+      "DevOps",
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://fr.linkedin.com/posts/mousaab-laachir_on-cl%C3%B4ture-de-mon-stage-de-fin-d%C3%A9tudes-chez-activity-7376995773588148224-BJT6",
+    "post_url": "https://fr.linkedin.com/posts/mousaab-laachir_on-cl%C3%B4ture-de-mon-stage-de-fin-d%C3%A9tudes-chez-activity-7376995773588148224-BJT6",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "Emploi : pfe",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Kubernetes",
+      "Next.js",
+      "React",
+      "DevOps",
+      "RAG",
+      "PostgreSQL",
+      "CI/CD",
+      "Python",
+      "AI",
+      "Git",
+      "GCP",
+      "TypeScript",
+      "FastAPI",
+      "Docker"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/emploi-pfe",
+    "post_url": "https://www.rekrute.com/emploi-pfe",
+    "match_score": 95,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud",
+      "+10: React / Next.js",
+      "+5: PostgreSQL",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "Emploi Informatique",
+    "company": "Emploi Maroc - offres d’emploi",
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "Kubernetes",
+      "Next.js",
+      "React",
+      "DevOps",
+      "RAG",
+      "PostgreSQL",
+      "CI/CD",
+      "Python",
+      "AI",
+      "Git",
+      "GCP",
+      "TypeScript",
+      "FastAPI",
+      "JavaScript",
+      "Docker"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/fr/offres.html?contractType=5&query=&studyLevelId=bac5%2B&workExperienceId%5B0%5D=2&sectorId%5B0%5D=24",
+    "post_url": "https://www.rekrute.com/fr/offres.html?contractType=5&query=&studyLevelId=bac5%2B&workExperienceId%5B0%5D=2&sectorId%5B0%5D=24",
+    "match_score": 95,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud",
+      "+10: React / Next.js",
+      "+5: PostgreSQL",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "emplois Stage pfe en java , spring boot , devops",
+    "company": null,
+    "location": "Maroc",
+    "work_type": null,
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "DevOps"
+    ],
+    "contact_email": null,
+    "apply_link": "https://ma.indeed.com/q-stage-pfe-en-java-,-spring-boot-,-devops-emplois.html",
+    "post_url": "https://ma.indeed.com/q-stage-pfe-en-java-,-spring-boot-,-devops-emplois.html",
+    "match_score": 80,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "emplois Stage java, spring",
+    "company": null,
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "React",
+      "Next.js",
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": null,
+    "apply_link": "https://ma.indeed.com/q-stage-java,-spring-emplois.html",
+    "post_url": "https://ma.indeed.com/q-stage-java,-spring-emplois.html",
+    "match_score": 75,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering",
+      "+10: React / Next.js"
+    ]
+  },
+  {
+    "title": "Emploi Stage développement informatique",
+    "company": "Maroc",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "Machine Learning",
+      "TypeScript",
+      "Git",
+      "Docker"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/emploi-Stage-d%C3%A9veloppement-informatique",
+    "post_url": "https://www.rekrute.com/emploi-Stage-d%C3%A9veloppement-informatique",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "Emploi IT / Electronics-Internet / Multimedia",
+    "company": "Emploi Afrique - offres d’emploi",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "PostgreSQL",
+      "Python",
+      "Git",
+      "FastAPI",
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/en/offres.html?positionId%5B0%5D=13&positionId%5B1%5D=19&workExperienceId%5B0%5D=2&sectorId=7&contractType=9&st=d",
+    "post_url": "https://www.rekrute.com/en/offres.html?positionId%5B0%5D=13&positionId%5B1%5D=19&workExperienceId%5B0%5D=2&sectorId=7&contractType=9&st=d",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG",
+      "+5: PostgreSQL"
+    ]
+  },
+  {
+    "title": "Stage PFE",
+    "company": "Développeur Full Stack Java",
+    "location": "Maroc",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://stagiaires.ma/stage-emploi-maroc/895-stage-pfe-developpeur-full-stack-java-f-h",
+    "post_url": "https://stagiaires.ma/stage-emploi-maroc/895-stage-pfe-developpeur-full-stack-java-f-h",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "stage java",
+    "company": "offres d'emploi - 13 - Maroc | Trabajo.org",
+    "location": "Rabat",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://ma.trabajo.org/emploi-stage+java",
+    "post_url": "https://ma.trabajo.org/emploi-stage+java",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "132 java spring Jobs in Morocco, September 2026",
+    "company": null,
+    "location": "Morocco",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.glassdoor.com/Job/morocco-java-spring-jobs-SRCH_IL.0,7_IN162_KO8,19.htm",
+    "post_url": "https://www.glassdoor.com/Job/morocco-java-spring-jobs-SRCH_IL.0,7_IN162_KO8,19.htm",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "stage #backend #springboot #java #casablanca #pfe | leila ...",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Java",
+      "Spring Boot"
+    ],
+    "contact_email": null,
+    "apply_link": "https://fr.linkedin.com/posts/leila-elwamy-aa9247234_stage-backend-springboot-activity-7382013481161535489--e5p",
+    "post_url": "https://fr.linkedin.com/posts/leila-elwamy-aa9247234_stage-backend-springboot-activity-7382013481161535489--e5p",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Développeur Fullstack JAVA / PHP l Stage PFE | Oumaima ...",
+    "company": null,
+    "location": "Maroc",
+    "work_type": null,
+    "required_skills": [
+      "Java"
+    ],
+    "contact_email": null,
+    "apply_link": "https://fr.linkedin.com/posts/oumaima-azoukani-i-tracing_d%C3%A9veloppeur-fullstack-java-php-l-stage-activity-7443232064100929538-IVfI",
+    "post_url": "https://fr.linkedin.com/posts/oumaima-azoukani-i-tracing_d%C3%A9veloppeur-fullstack-java-php-l-stage-activity-7443232064100929538-IVfI",
+    "match_score": 65,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+20: Java / Spring Boot",
+      "+15: Backend / Software Engineering"
+    ]
+  },
+  {
+    "title": "Offres d’emploi : Stage Developpeur",
+    "company": "OneJob.ma",
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.onejob.ma/offres-emploi/stage-developpeur",
+    "post_url": "https://www.onejob.ma/offres-emploi/stage-developpeur",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG"
+    ]
+  },
+  {
+    "title": "Développeur JavaScript Full Stack | Stage",
+    "company": "Flint Solutions | Stagiaires.ma | Stagiaires.ma",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "Next.js",
+      "PostgreSQL",
+      "TypeScript",
+      "Git",
+      "Node.js",
+      "MySQL",
+      "JavaScript"
+    ],
+    "contact_email": null,
+    "apply_link": "https://stagiaires.ma/stage-emploi-maroc/3966-developpeur-javascript-full-stack-stage",
+    "post_url": "https://stagiaires.ma/stage-emploi-maroc/3966-developpeur-javascript-full-stack-stage",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+10: React / Next.js",
+      "+5: PostgreSQL"
+    ]
+  },
+  {
+    "title": "emplois Stage intelligence artificielle",
+    "company": null,
+    "location": "Marrakech",
+    "work_type": null,
+    "required_skills": [],
+    "contact_email": null,
+    "apply_link": "https://ma.indeed.com/q-stage-intelligence-artificielle-emplois.html",
+    "post_url": "https://ma.indeed.com/q-stage-intelligence-artificielle-emplois.html",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG"
+    ]
+  },
+  {
+    "title": "Offres de stage en Intelligence Artificielle (IA) à pourvoir",
+    "company": null,
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "AI",
+      "DevOps"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.welcometothejungle.com/fr/pages/stage-intelligence-artificielle",
+    "post_url": "https://www.welcometothejungle.com/fr/pages/stage-intelligence-artificielle",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "Delivery AI Product Intern",
+    "company": null,
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.linkedin.com/jobs/view/4436235127",
+    "post_url": "https://www.linkedin.com/jobs/view/4436235127",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG"
+    ]
+  }
+]

@@ -10,7 +10,6 @@ from internship_agent.nodes.normalize_jobs import normalize_jobs_node
 from internship_agent.nodes.score_jobs import score_jobs_node
 from internship_agent.nodes.search_sources import search_sources_node
 from internship_agent.nodes.send_notification import send_notification_node
-from internship_agent.nodes.sync_notion import sync_notion_node
 from internship_agent.state import InternshipSearchState
 
 
@@ -26,7 +25,6 @@ def create_internship_graph() -> CompiledStateGraph:
     workflow.add_node("deduplicate_jobs", deduplicate_jobs_node)
     workflow.add_node("enrich_jobs", enrich_jobs_node)
     workflow.add_node("score_jobs", score_jobs_node)
-    workflow.add_node("sync_notion", sync_notion_node)
     workflow.add_node("build_digest", build_digest_node)
     workflow.add_node("send_notification", send_notification_node)
 
@@ -38,8 +36,7 @@ def create_internship_graph() -> CompiledStateGraph:
     workflow.add_edge("filter_jobs", "deduplicate_jobs")
     workflow.add_edge("deduplicate_jobs", "enrich_jobs")
     workflow.add_edge("enrich_jobs", "score_jobs")
-    workflow.add_edge("score_jobs", "sync_notion")
-    workflow.add_edge("sync_notion", "build_digest")
+    workflow.add_edge("score_jobs", "build_digest")
     workflow.add_edge("build_digest", "send_notification")
     workflow.add_edge("send_notification", END)
 

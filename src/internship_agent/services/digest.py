@@ -4,6 +4,7 @@ from internship_agent.models.job import JobOpportunity
 def generate_daily_digest(
     created_jobs: list[JobOpportunity],
     updated_jobs: list[JobOpportunity] | None = None,
+    max_jobs: int = 25,
 ) -> str:
     """Generate a clean, readable text digest of newly discovered internship opportunities."""
     if updated_jobs is None:
@@ -20,7 +21,7 @@ def generate_daily_digest(
     # Sort new jobs by match score descending
     sorted_new = sorted(created_jobs, key=lambda j: j.match_score or 0, reverse=True)
 
-    for idx, job in enumerate(sorted_new[:10], start=1):
+    for idx, job in enumerate(sorted_new[:max_jobs], start=1):
         score_str = f"{job.match_score}/100" if job.match_score is not None else "N/A"
         company = job.company or "Company not specified"
         location = job.location or "Morocco (or Remote)"
