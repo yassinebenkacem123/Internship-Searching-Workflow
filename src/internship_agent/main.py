@@ -1,8 +1,16 @@
 import argparse
 import asyncio
+import sys
 
 from internship_agent.agent.linkedin_pfe_agent import run_linkedin_pfe_agent
 from internship_agent.graph import create_internship_graph
+from internship_agent.models.job import JobOpportunity
+from internship_agent.services.digest import generate_daily_digest
+from internship_agent.services.notification.telegram import TelegramNotifier
+
+# Ensure stdout is utf-8 on Windows
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 async def run_pipeline() -> None:
@@ -20,6 +28,7 @@ async def run_pipeline() -> None:
     deduped = result.get("deduplicated_jobs", [])
     scored = result.get("scored_jobs", [])
     digest = result.get("digest", "")
+    notification_sent = result.get("notification_sent", False)
 
     print("📊 Workflow Execution Summary:")
     print(f"  • Queries generated:   {len(queries)}")
@@ -27,7 +36,8 @@ async def run_pipeline() -> None:
     print(f"  • Normalized jobs:     {len(normalized)}")
     print(f"  • Qualified PFE jobs:  {len(filtered)}")
     print(f"  • Deduplicated jobs:   {len(deduped)}")
-    print(f"  • Scored opportunities:{len(scored)}\n")
+    print(f"  • Scored opportunities:{len(scored)}")
+    print(f"  • Telegram notification: {'✅ Sent successfully' if notification_sent else '⚠️ Not sent (check .env credentials or logs)'}\n")
 
     if digest:
         print("📋 Daily Digest:")
@@ -36,7 +46,7 @@ async def run_pipeline() -> None:
         print("----------------\n")
 
 
-async def run_linkedin_mode(query: str, time_filter: str, output: str) -> None:
+async def run_linkedin_mode(query: str, time_filter: str, output: str, notify: bool = True) -> None:
     """Execute the dedicated LinkedIn PFE post search and extraction agent."""
     print("🎯 Autonomous LinkedIn PFE Post Search & Extraction Agent")
     print("=========================================================\n")
@@ -52,7 +62,27 @@ async def run_linkedin_mode(query: str, time_filter: str, output: str) -> None:
     print(f"  • Rejected (false positive/low score): {stats['rejected_false_positives_or_low_score']}")
     print(f"  • Newly saved leads:        {stats['saved_leads_count']}")
     print(f"  • Duplicate leads skipped:  {stats['duplicate_leads_skipped']}")
-    print(f"  • File saved to:            {output}\n")
+    print(f"  • File saved to:            {output}")
+
+    if notify and stats["saved_leads"]:
+        print("\n📲 Sending LinkedIn PFE leads digest to Telegram...")
+        jobs = [
+            JobOpportunity(
+                title=lead["title"],
+                company=lead.get("company"),
+                location=lead.get("location"),
+                required_skills=lead.get("required_skills", []),
+                match_score=lead.get("match_score"),
+                original_url=lead.get("post_url"),
+            )
+            for lead in stats["saved_leads"]
+        ]
+        digest = generate_daily_digest(jobs, max_jobs=25)
+        notifier = TelegramNotifier()
+        sent = await notifier.send_message(digest)
+        print(f"  • Telegram notification: {'✅ Sent successfully' if sent else '⚠️ Not sent (check logs)'}\n")
+    else:
+        print()
 
 
 def main() -> None:
@@ -80,13 +110,39 @@ def main() -> None:
         default="output/pfe_leads.json",
         help="Destination path for saving verified PFE leads",
     )
+    parser.add_argument(
+        "--notify",
+        action="store_true",
+        default=True,
+        help="Send digest notification to Telegram (default: True)",
+    )
+    parser.add_argument(
+        "--no-notify",
+        action="store_false",
+        dest="notify",
+        help="Disable Telegram notification",
+    )
 
     args = parser.parse_args()
 
     if args.mode == "linkedin-posts":
-        asyncio.run(run_linkedin_mode(query=args.query, time_filter=args.time_filter, output=args.output))
+        asyncio.run(
+            run_linkedin_mode(
+                query=args.query,
+                time_filter=args.time_filter,
+                output=args.output,
+                notify=args.notify,
+            )
+        )
     elif args.mode == "all":
-        asyncio.run(run_linkedin_mode(query=args.query, time_filter=args.time_filter, output=args.output))
+        asyncio.run(
+            run_linkedin_mode(
+                query=args.query,
+                time_filter=args.time_filter,
+                output=args.output,
+                notify=args.notify,
+            )
+        )
         asyncio.run(run_pipeline())
     else:
         asyncio.run(run_pipeline())

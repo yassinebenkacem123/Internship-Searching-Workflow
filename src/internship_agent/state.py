@@ -18,3 +18,4 @@ class InternshipSearchState(TypedDict, total=False):
     updated_jobs: list[JobOpportunity]
     errors: list[str]
     digest: str
+    notification_sent: bool

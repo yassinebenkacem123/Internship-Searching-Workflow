@@ -813,5 +813,68 @@
       "+15: Backend / Software Engineering",
       "+15: AI / LLM / RAG"
     ]
+  },
+  {
+    "title": "Emploi stage pfe",
+    "company": "Maroc",
+    "location": "Télétravail",
+    "work_type": null,
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Docker",
+      "Git",
+      "React",
+      "FastAPI",
+      "TypeScript",
+      "Next.js"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.rekrute.com/emploi-stage-pfe",
+    "post_url": "https://www.rekrute.com/emploi-stage-pfe",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: AI / LLM / RAG",
+      "+10: React / Next.js",
+      "+5: Docker"
+    ]
+  },
+  {
+    "title": "Offre d'emploi",
+    "company": "Stage en Intelligence Artificielle",
+    "location": "Casablanca",
+    "work_type": null,
+    "required_skills": [
+      "Machine Learning",
+      "DevOps"
+    ],
+    "contact_email": null,
+    "apply_link": "https://www.logigroup.com/fr-ma/offres-d-emploi/stage-en-intelligence-artificielle-maroc",
+    "post_url": "https://www.logigroup.com/fr-ma/offres-d-emploi/stage-en-intelligence-artificielle-maroc",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: AI / LLM / RAG",
+      "+15: DevOps / Cloud"
+    ]
+  },
+  {
+    "title": "‏٢١٨‏ من وظائف ‏Internship Computer Science‏ في ‏المغرب‏",
+    "company": null,
+    "location": null,
+    "work_type": null,
+    "required_skills": [
+      "AI"
+    ],
+    "contact_email": null,
+    "apply_link": "https://ma.linkedin.com/jobs/internship-computer-science-jobs",
+    "post_url": "https://ma.linkedin.com/jobs/internship-computer-science-jobs",
+    "match_score": 60,
+    "match_rationale": [
+      "+30: Explicit PFE / final-year internship",
+      "+15: Backend / Software Engineering",
+      "+15: AI / LLM / RAG"
+    ]
   }
 ]
